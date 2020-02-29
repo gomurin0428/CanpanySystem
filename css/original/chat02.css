@@ -48,3 +48,11 @@
     color: #999;
   }
   
+  .name-right{
+      float:right;
+      color:blue;
+  }
+  .name-left{
+      float:left;
+      color:red;
+  }
