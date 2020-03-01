@@ -8,8 +8,9 @@
 </head>
 
 <body>
-    <h2>チャットメッセージ</h2>
-
+    <div class="container">
+        <h2>チャットメッセージ</h2>
+    </div>
     <div class="container">
         <div class="chatcontainer">
             <img src="images/testicon1.png" alt="komkom">
@@ -22,9 +23,19 @@
     <div class="container">
         <div class="chatcontainer darker">
             <img src="images/testicon2.png" alt="Avatar" class="right">
-            <p>Hey! I'm fine. Thanks for asking!</p>
+            <p>今日はいい天気ですね。</p>
             <span class="time-right"><time>2019-03/01-12:00</time></span>
             <span class="name-right">はかた</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="form-group">
+            <label for="comment">メッセージ</label>
+            <textarea class="form-control" id="comment" rows="3"></textarea>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-primary btn-lg">メッセージを送る</button>
         </div>
     </div>
 </body>

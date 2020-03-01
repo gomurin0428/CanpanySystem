@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <div class="container">
     <h1 style="text-align: center;">タイムシートを編集したい日を選んでください。</h1>
     <div class="month">
         <ul>
@@ -65,13 +66,63 @@
         <li>31</li>
     </ul>
 
-    <div class="d-flex justify-content-center">
-        <button type="button" class="btn btn-primary btn-lg">2020年3月10日分を編集</button>
+    <h2 style="text-align: center;">入力済みデータ</h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">日付</th>
+                <th scope="col">出社時間</th>
+                <th scope="col">退社時間</th>
+                <th scope="col">休憩時間</th>
+                <th scope="col">定時労働</th>
+                <th scope="col">残業時間</th>
+                <th scope="col">深夜時間</th>
+                <th scope="col">遅早時間</th>
+                <th scope="col">休日出勤</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2020年3月1日</td>
+                <td>9:00</td>
+                <td>18:00</td>
+                <td>1:00</td>
+                <td>8:00</td>
+                <td>0:00</td>
+                <td>0:00</td>
+                <td>0:00</td>
+                <td>0:00</td>
+            </tr>
+            <tr>
+                <td>2020年3月2日</td>
+                <td>9:00</td>
+                <td>18:00</td>
+                <td>1:00</td>
+                <td>8:00</td>
+                <td>0:00</td>
+                <td>0:00</td>
+                <td>0:00</td>
+                <td>0:00</td>
+            </tr>
+            <tr>
+                <td>2020年3月3日</td>
+                <td>9:00</td>
+                <td>18:00</td>
+                <td>1:00</td>
+                <td>8:00</td>
+                <td>0:00</td>
+                <td>0:00</td>
+                <td>0:00</td>
+                <td>0:00</td>
+            </tr>
+        </tbody>
+    </table>
 
-    </div>
-    <p></p>
+
     <div class="d-flex justify-content-center">
         <button type="button" class="btn btn-primary btn-lg">タイムシートを提出</button>
+    </div>
+
     </div>
 
 </body>
